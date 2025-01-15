@@ -1,0 +1,36 @@
+Insta Wireframing
+	-Icons:
+		-insta ui icons
+
+Icon Spacing
+	-Multiple of 4 
+
+Join Two Points
+	-Select Two Points:
+		-Shift + click
+	-ctrl + J (Join)
+	
+Check Spacing
+	- Select oblect + Alt
+
+Group Object
+	- ctrl + G
+
+Preview
+	-shift + space
+
+Overflow 
+	- contect outside the frame
+	-scroll overflow content:
+		-prototype > overflow 
+		- Group must be converted into frame
+			-Group > Right click > frame selection
+		scroll content only within frame:
+			-design > layout > clip content
+
+
+Replace 
+	-ctrl+shift+R 
+
+Prototype
+	-All interactions are added through prototype

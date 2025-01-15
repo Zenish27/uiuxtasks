@@ -1,0 +1,50 @@
+UI/UX 
+
+-IDE
+	-VS Code
+	-Sublime
+-git
+	-run commands
+
+-project
+	-sub folders
+	-first page
+		<!DOCTYPE html> ->version
+		<html lang="en"> -> langage-english
+		<head>
+   		 	<meta charset="UTF-8">
+   		 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> viewport->browser visibility space
+    		<title>Document</title>
+		</head>
+		<body>
+    			
+			<script></script>
+		</body>
+		</html>
+-Html
+	-tag
+	-elements
+
+-script
+	-use script after the designs
+	-using script before design make take a load time
+
+-tags types
+	-semantics
+		-specific meaning
+		-eg: h1
+	-text formatting
+		-b,i,em
+	-layout tags
+
+-links
+	-relative
+		-directs to the pages of the same project
+		-only to self
+	-absolute
+		-online links
+		-hosted
+		-anyone can access
+-video/audio
+	-controls
+		-attributes that displays controls

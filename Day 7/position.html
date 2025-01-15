@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 2px solid red;
+            height: 800px;
+            width: 600px;
+            /* display: flex; */
+            position: relative;
+        }
+
+        .minibox {
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+            text-align: center;
+            align-content: center;
+            font-size: 2rem;
+        }
+        #static{
+            /* position: static; */
+            margin-top: 3rem;
+        }
+        #relative{
+            background-color: aqua;
+            /* position: relative; */
+            top: 3rem;
+            /* z-index: -1; */
+        }
+        #abosolute{
+            background-color: green;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -3;
+        }
+        #fixed{
+            background-color: brown;
+            position: fixed;
+            /* z-index: ; */
+            bottom: 1rem;
+            right: 1rem;
+        }
+        #sticky{
+            z-index: 3;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Position Types:</h1>
+
+    <ol>
+        <li>Static(default postion)</li>
+        <li>Relative(own position)</li>
+        <li>Absolute(relative parent)</li>
+        <li>Fixed(scroll)</li>
+        <li>Sticky(scroll)</li>
+    </ol>
+
+    <!-- ctrl + shift + l  -->
+    <!-- ctrl + d -->
+
+    <div class="box">
+        <div class="minibox" id="static">static</div>
+        <div class="minibox" id="relative">relative</div>
+        <div class="minibox" id="abosolute">absolute</div>
+        <div class="minibox" id="fixed">fixed</div>
+        <div class="minibox" id="sticky">sticky</div>
+    </div>
+
+</body>
+
+</html>
